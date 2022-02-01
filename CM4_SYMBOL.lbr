@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1439,7 +1439,7 @@ down during power off or GLOBAL_EN being set low</text>
 <gate name="U" symbol="CM4_U" x="61.722" y="162.56"/>
 </gates>
 <devices>
-<device name="CM4_CM4_CM4-F40C-100DS-0.4V_1.5MM_0MM" package="CM4_CM4-F40C-100DS-0.4V_1.5MM_0MM">
+<device name="" package="CM4_FOOTPRINT">
 <connects>
 <connect gate="A" pin="GPIO10" pad="44"/>
 <connect gate="A" pin="GPIO11" pad="38"/>
@@ -1466,63 +1466,63 @@ down during power off or GLOBAL_EN being set low</text>
 <connect gate="A" pin="GPIO8" pad="39"/>
 <connect gate="A" pin="GPIO9" pad="40"/>
 <connect gate="A" pin="GPIO_VREF" pad="78"/>
-<connect gate="B" pin="GND@1" pad="198"/>
-<connect gate="B" pin="GND@10" pad="173"/>
-<connect gate="B" pin="GND@11" pad="168"/>
-<connect gate="B" pin="GND@12" pad="167"/>
-<connect gate="B" pin="GND@13" pad="162"/>
-<connect gate="B" pin="GND@14" pad="161"/>
-<connect gate="B" pin="GND@15" pad="156"/>
-<connect gate="B" pin="GND@16" pad="155"/>
-<connect gate="B" pin="GND@17" pad="150"/>
-<connect gate="B" pin="GND@18" pad="144"/>
-<connect gate="B" pin="GND@19" pad="138"/>
-<connect gate="B" pin="GND@2" pad="197"/>
-<connect gate="B" pin="GND@20" pad="137"/>
-<connect gate="B" pin="GND@21" pad="132"/>
-<connect gate="B" pin="GND@22" pad="131"/>
-<connect gate="B" pin="GND@23" pad="126"/>
-<connect gate="B" pin="GND@24" pad="125"/>
-<connect gate="B" pin="GND@25" pad="120"/>
+<connect gate="B" pin="GND@1" pad="1"/>
+<connect gate="B" pin="GND@10" pad="33"/>
+<connect gate="B" pin="GND@11" pad="42"/>
+<connect gate="B" pin="GND@12" pad="43"/>
+<connect gate="B" pin="GND@13" pad="52"/>
+<connect gate="B" pin="GND@14" pad="53"/>
+<connect gate="B" pin="GND@15" pad="59"/>
+<connect gate="B" pin="GND@16" pad="60"/>
+<connect gate="B" pin="GND@17" pad="65"/>
+<connect gate="B" pin="GND@18" pad="66"/>
+<connect gate="B" pin="GND@19" pad="71"/>
+<connect gate="B" pin="GND@2" pad="2"/>
+<connect gate="B" pin="GND@20" pad="74"/>
+<connect gate="B" pin="GND@21" pad="98"/>
+<connect gate="B" pin="GND@22" pad="107"/>
+<connect gate="B" pin="GND@23" pad="108"/>
+<connect gate="B" pin="GND@24" pad="113"/>
+<connect gate="B" pin="GND@25" pad="114"/>
 <connect gate="B" pin="GND@26" pad="119"/>
-<connect gate="B" pin="GND@27" pad="114"/>
-<connect gate="B" pin="GND@28" pad="113"/>
-<connect gate="B" pin="GND@29" pad="108"/>
-<connect gate="B" pin="GND@3" pad="192"/>
-<connect gate="B" pin="GND@30" pad="107"/>
-<connect gate="B" pin="GND@31" pad="98"/>
-<connect gate="B" pin="GND@32" pad="74"/>
-<connect gate="B" pin="GND@33" pad="71"/>
-<connect gate="B" pin="GND@34" pad="66"/>
-<connect gate="B" pin="GND@35" pad="65"/>
-<connect gate="B" pin="GND@36" pad="60"/>
-<connect gate="B" pin="GND@37" pad="59"/>
-<connect gate="B" pin="GND@38" pad="53"/>
-<connect gate="B" pin="GND@39" pad="52"/>
-<connect gate="B" pin="GND@4" pad="191"/>
-<connect gate="B" pin="GND@40" pad="43"/>
-<connect gate="B" pin="GND@41" pad="42"/>
-<connect gate="B" pin="GND@42" pad="33"/>
-<connect gate="B" pin="GND@43" pad="32"/>
-<connect gate="B" pin="GND@44" pad="23"/>
-<connect gate="B" pin="GND@45" pad="22"/>
-<connect gate="B" pin="GND@46" pad="14"/>
-<connect gate="B" pin="GND@47" pad="13"/>
-<connect gate="B" pin="GND@48" pad="8"/>
-<connect gate="B" pin="GND@49" pad="7"/>
-<connect gate="B" pin="GND@5" pad="186"/>
-<connect gate="B" pin="GND@50" pad="2"/>
-<connect gate="B" pin="GND@51" pad="1"/>
-<connect gate="B" pin="GND@6" pad="185"/>
-<connect gate="B" pin="GND@7" pad="180"/>
-<connect gate="B" pin="GND@8" pad="179"/>
-<connect gate="B" pin="GND@9" pad="174"/>
-<connect gate="C" pin="+5V_(INPUT)@1" pad="87"/>
-<connect gate="C" pin="+5V_(INPUT)@2" pad="85"/>
-<connect gate="C" pin="+5V_(INPUT)@3" pad="83"/>
-<connect gate="C" pin="+5V_(INPUT)@4" pad="81"/>
-<connect gate="C" pin="+5V_(INPUT)@5" pad="79"/>
-<connect gate="C" pin="+5V_(INPUT)@6" pad="77"/>
+<connect gate="B" pin="GND@27" pad="120"/>
+<connect gate="B" pin="GND@28" pad="125"/>
+<connect gate="B" pin="GND@29" pad="126"/>
+<connect gate="B" pin="GND@3" pad="7"/>
+<connect gate="B" pin="GND@30" pad="131"/>
+<connect gate="B" pin="GND@31" pad="132"/>
+<connect gate="B" pin="GND@32" pad="137"/>
+<connect gate="B" pin="GND@33" pad="138"/>
+<connect gate="B" pin="GND@34" pad="144"/>
+<connect gate="B" pin="GND@35" pad="150"/>
+<connect gate="B" pin="GND@36" pad="155"/>
+<connect gate="B" pin="GND@37" pad="156"/>
+<connect gate="B" pin="GND@38" pad="167"/>
+<connect gate="B" pin="GND@39" pad="161"/>
+<connect gate="B" pin="GND@4" pad="8"/>
+<connect gate="B" pin="GND@40" pad="162"/>
+<connect gate="B" pin="GND@41" pad="168"/>
+<connect gate="B" pin="GND@42" pad="173"/>
+<connect gate="B" pin="GND@43" pad="174"/>
+<connect gate="B" pin="GND@44" pad="179"/>
+<connect gate="B" pin="GND@45" pad="180"/>
+<connect gate="B" pin="GND@46" pad="185"/>
+<connect gate="B" pin="GND@47" pad="186"/>
+<connect gate="B" pin="GND@48" pad="191"/>
+<connect gate="B" pin="GND@49" pad="192"/>
+<connect gate="B" pin="GND@5" pad="13"/>
+<connect gate="B" pin="GND@50" pad="197"/>
+<connect gate="B" pin="GND@51" pad="198"/>
+<connect gate="B" pin="GND@6" pad="14"/>
+<connect gate="B" pin="GND@7" pad="22"/>
+<connect gate="B" pin="GND@8" pad="23"/>
+<connect gate="B" pin="GND@9" pad="32"/>
+<connect gate="C" pin="+5V_(INPUT)@1" pad="77"/>
+<connect gate="C" pin="+5V_(INPUT)@2" pad="79"/>
+<connect gate="C" pin="+5V_(INPUT)@3" pad="81"/>
+<connect gate="C" pin="+5V_(INPUT)@4" pad="83"/>
+<connect gate="C" pin="+5V_(INPUT)@5" pad="85"/>
+<connect gate="C" pin="+5V_(INPUT)@6" pad="87"/>
 <connect gate="D" pin="CAM0_C_N" pad="140"/>
 <connect gate="D" pin="CAM0_C_P" pad="142"/>
 <connect gate="D" pin="CAM0_D0_N" pad="128"/>
@@ -1613,9 +1613,9 @@ down during power off or GLOBAL_EN being set low</text>
 <connect gate="N" pin="USB_OTG_ID" pad="101"/>
 <connect gate="N" pin="USB_P" pad="105"/>
 <connect gate="O" pin="EEPROM_NWP" pad="20"/>
-<connect gate="O" pin="RESERVED@1" pad="106"/>
+<connect gate="O" pin="RESERVED@1" pad="76"/>
 <connect gate="O" pin="RESERVED@2" pad="104"/>
-<connect gate="O" pin="RESERVED@3" pad="76"/>
+<connect gate="O" pin="RESERVED@3" pad="106"/>
 <connect gate="P" pin="ETHERNET_NLED1" pad="19"/>
 <connect gate="P" pin="ETHERNET_NLED2" pad="17"/>
 <connect gate="P" pin="ETHERNET_NLED3" pad="15"/>
@@ -1629,10 +1629,10 @@ down during power off or GLOBAL_EN being set low</text>
 <connect gate="P" pin="ETHERNET_PAIR3_P" pad="3"/>
 <connect gate="P" pin="ETHERNET_SYNC_IN" pad="16"/>
 <connect gate="P" pin="ETHERNET_SYNC_OUT" pad="18"/>
-<connect gate="Q" pin="CM4_1.8V_(OUTPUT)@1" pad="90"/>
-<connect gate="Q" pin="CM4_1.8V_(OUTPUT)@2" pad="88"/>
-<connect gate="Q" pin="CM4_3.3V_(OUTPUT)@1" pad="86"/>
-<connect gate="Q" pin="CM4_3.3V_(OUTPUT)@2" pad="84"/>
+<connect gate="Q" pin="CM4_1.8V_(OUTPUT)@1" pad="88"/>
+<connect gate="Q" pin="CM4_1.8V_(OUTPUT)@2" pad="90"/>
+<connect gate="Q" pin="CM4_3.3V_(OUTPUT)@1" pad="84"/>
+<connect gate="Q" pin="CM4_3.3V_(OUTPUT)@2" pad="86"/>
 <connect gate="R" pin="I2C_SCL0" pad="80"/>
 <connect gate="R" pin="I2C_SDA0" pad="82"/>
 <connect gate="S" pin="ID_SC" pad="35"/>
